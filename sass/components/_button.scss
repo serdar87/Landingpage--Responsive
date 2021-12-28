@@ -1,0 +1,33 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10rem;
+    border: none;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 1.5rem 4.5rem;
+    color: black;
+    background-color: #4eb5f1;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  &:hover {
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    cursor: pointer;
+  }
+  &--green {
+    &:link,
+    &:visited {
+      color: rgb(255, 255, 255);
+      background-color: #2eb3a3;
+      padding: 1.5rem 2rem;
+      width: 80%;
+    }
+  }
+}
