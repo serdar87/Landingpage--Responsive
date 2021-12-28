@@ -347,7 +347,7 @@ html {
           width: 75vw; } }
       @media only screen and (max-width: 37.5em) {
         .activities__content--active {
-          grid-template-rows: min-content minmax(23rem, min-content); } }
+          grid-template-rows: min-content minmax(25rem, min-content); } }
   .activities p {
     grid-row: 2 / span 1;
     grid-column: 2 / span 1;
