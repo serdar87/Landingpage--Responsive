@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Flims</title>
+  
+  <link rel="icon" type="image/png" href="./images/android-chrome-512x512.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <script defer src="./script.js"></script>
+</head>
+
+<body class="container">
+  <nav class="navigation">
+    <a href="#"><img class="navigation__logo" src="./images/gemeinde-flims_640.jpg" alt="logo" /></a>
+    <ul class="navigation__list">
+      <li class="navigation__item">
+        <a class="navigation__link" href="#activities">Activites</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#otels">Hotels</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#gallery">Gallery</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="#footer">Contact</a>
+      </li>
+    </ul>
+    <input class="navigation__checkbox" type="checkbox" id="navi-toggle">
+    <label class="navigation__button" for="navi-toggle">
+      <span class="navigation__icon"></span>
+    </label>
+  </nav>
+  <header class="header">
+
+    <div class="header__text-box">
+      <h1 class="heading--primary">
+        <span class="heading--primary--main">Village on the Alps</span>
+        <span class="heading--primary--secondary">WITH AN AMAZING NATURE</span>
+      </h1>
+    </div>
+  </header>
+  <section id="activities" class="section activities">
+
+    <h3 class="section__description">
+      Beautiful Landscapes and Peace Every Season
+    </h3>
+
+
+    <div class="activities__tabbox">
+      <div class="activities__tabcontainer">
+        <button class="btn activities__tab  activities__tab--active" data-tab="1">
+          Winter
+        </button>
+        <button class="btn activities__tab " data-tab="2">
+          Summer
+        </button>
+        <button class="btn activities__tab " data-tab="3">
+          Spring
+        </button>
+        <button class="btn activities__tab " data-tab="4">
+          Autumn
+        </button>
+      </div>
+    </div>
+    <div class="activities__content activities__content__1 activities__content--active">
+      <div class="activities__icon activities__icon1">
+        <img src="images/winter.png">
+      </div>
+      <h5 class="activities__header">Ski/Snowboard/Sled </h5>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+      </p>
+    </div>
+    <div class="activities__content activities__content__2">
+      <div class="activities__icon activities__icon2">
+        <img src="images/summer.png">
+      </div>
+      <h5 class="activities__header">Hiking</h5>
+      <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque 
+        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto 
+        beatae vitae dicta sunt explicabo.
+      </p>
+    </div>
+    </div>
+    <div class="activities__content activities__content__3">
+      <div class="activities__icon activities__icon3">
+        <img src="images/spring.png">
+      </div>
+      <h5 class="activities__header">Discover Alps</h5>
+      <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+        fficia Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur.
+      </p>
+    </div>
+    </div>
+    <div class="activities__content activities__content__4">
+      <div class="activities__icon activities__icon4">
+        <img src="images/autumn.png">
+      </div>
+      <h5 class="activities__header">Beauty of different colours</h5>
+      <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+         Neque porro quisquam.
+      </p>
+    </div>
+    </div>
+  </section>
+
+  <section id="otels" class="section hotels">
+
+    <h3 class="section__description">
+      EXPLORE HOTELS
+    </h3>
+
+    <div class="cardcontainer">
+      <div class="card">
+        <div class="card__side card__side--front "><img src="./images/otel1.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>/
+      </div>
+      <div class="card">
+        <div class="card__side card__side--front "> <img src="./images/otel2.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>
+      </div>
+      <div class="card">
+        <div class="card__side card__side--front "> <img src="./images/otel3.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>
+      </div>
+      <div class="card">
+        <div class="card__side card__side--front "> <img src="./images/otel4.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>
+      </div>
+      <div class="card">
+        <div class="card__side card__side--front "> <img src="./images/otel5.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>
+      </div>
+      <div class="card">
+        <div class="card__side card__side--front "> <img src="./images/otel6.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>
+      </div>
+      <div class="card">
+        <div class="card__side card__side--front "> <img src="./images/otel7.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>
+      </div>
+      <div class="card">
+        <div class="card__side card__side--front "> <img src="./images/otel8.jpg" alt="hotel"></div>
+        <div class="card__side card__side--back "> <a href="#" class="btn btn--green">Book now</a></div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="gallery" class="section gallery">
+
+    <div class="slider">
+
+      <figure class="slide">
+        <img src="./images/gallery1.jpg">
+
+      </figure>
+
+      <figure class="slide">
+        <img src="./images/gallery2.jpg">
+
+      </figure>
+
+      <figure class="slide">
+        <img src="./images/gallery3.jpg">
+
+      </figure>
+
+      <figure class="slide">
+        <img src="./images/gallery4.jpg">
+
+      </figure>
+
+      <figure class="slide">
+        <img src="./images/gallery5.jpg">
+
+      </figure>
+
+      <figure class="slide">
+        <img src="./images/gallery6.jpg">
+      </figure>
+      <button class="slider__btn slider__btn--left">&rarr;</button>
+      <button class="slider__btn slider__btn--right">&larr;</button>
+      <div class="dots"></div>
+
+    </div>
+  </section>
+  <footer class="footer" id="footer">
+    <div>
+      <ul class="footer__list">
+        <li class="footer__list__item"><a class="footer__list__link" href="#">Home</a></li>
+        <li class="footer__list__item"><a class="footer__list__link" href="#">Information</a></li>
+        <li class="footer__list__item"><a class="footer__list__link" href="#">Maps</a></li>
+        <li class="footer__list__item"><a class="footer__list__link" href="#">Unesco</a></li>
+        <li class="footer__list__item"><a class="footer__list__link" href="#">Camping</a></li>
+        <li class="footer__list__item"><a class="footer__list__link" href="#">News</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  </div>
+</body>
+
+</html>
