@@ -9,6 +9,8 @@
 
 -Vanilla Js
 
+-Intersection Observer API
+
 -Node Sass
 
 -Npm Postcss-Cli/ Prefixer/
